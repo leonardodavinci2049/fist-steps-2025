@@ -1,0 +1,15 @@
+.link {
+  margin-right: 0.5rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: rgb(96, 165, 250); /* blue-400 */
+}
+
+.active-link {
+  color: rgb(59, 130, 246); /* blue-500 */
+}

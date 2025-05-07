@@ -7,7 +7,7 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
       <h1 className="text-6xl text-red-500 font-bold">New Project Next</h1>
       <Link href="/about" className="text-3xl text-blue-500">
-        Go to About Page:  { 1 + 1 }
+        Go to About Page
       </Link>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
